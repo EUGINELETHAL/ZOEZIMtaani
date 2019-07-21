@@ -165,7 +165,7 @@ table tr {
 .tainers_box li.item {
 	width: 29%;
 }
-.trainer-desc span.trainer-name {
+.-desc span.trainer-name {
 	margin: 17px 0 10px;
 }
 .tainers_box {
@@ -260,9 +260,7 @@ h2.title {
 .blog_con p {
 	font-size: 14px;
 }
-.img_trainer {
-	-webkit-clip-path: polygon(23.5% 0, 100% 0, 100% 100%, 0 100%, 0 17%);
-	clip-path: polygon(23.5% 0, 100% 0, 100% 100%, 0 100%, 0 17%);
+
 }
 .course_con h3 {
 	font-size: 21px;
