@@ -205,7 +205,7 @@ textarea:focus, input:focus, select:focus, a:focus, button:focus {
 	transition-timing-function: ease-out;
 	outline: none;
 	border-radius: 50px;
-	border-color red !important;
+	border-color: red !important;
 	color: #ffffff;
 }
 .page-wrapper {
@@ -266,14 +266,14 @@ Header
 }
 .header-lower .logo .logo_name, .main-footer .logo_name {
 	margin: 8px auto;
-	color red;
+	color:red;
 	font-weight: 800;
 }
 .header-lower .logo .logo_name .white_text, .main-footer .logo_name .white_text {
 	color: #ffffff;
 }
 .main-header .header-top .top-left .fa {
-	color red;
+	color:red;
 	padding-right: 10px;
 	font-size: 18px;
 }
@@ -591,9 +591,9 @@ Carousel
 .fade-carousel .carousel-indicators > li.active span {
 	width: 1px;
 	height: 40px;
-	color red;
+	color:red;
 	position: absolute;
-	background red;
+	background:red;
 	top: 20px;
 	z-index: 8;
 }
@@ -668,8 +668,8 @@ Carousel
 	font-weight: 900;
 }
 . .btn-hero:hover {
-	border-color red !important;
-	background-color:#ff7101;
+	border-color:red !important;
+	background-color:red;
 	color:#fff;
 	transition:all ease 0.5s 0s;
 }
@@ -1323,7 +1323,7 @@ video
 	color: #f27920;
 }
 .video_sec {
-	background: url(../images/video_bg.png) no-repeat fixed center;
+	background: url(../images/zoezi35.jpg) no-repeat fixed center;
 	background-size: cover;
 }
 
@@ -2018,7 +2018,7 @@ footer
 	text-transform: uppercase;
 }
 .footer-menu ul li a:hover {
-	color red;
+	color:red;
 	transition: all ease 0.5s 0s;
 }
 .footer-mail {
@@ -2638,7 +2638,7 @@ schedule
 	color: #ababab;
 }
 .tags_blog .tag_list .tags:hover, .tags_blog .tag_list .tags.active, .tags_blog .tag_list .tags:focus {
-	background red;
+	background :red;
 	color: #ffffff;
 	border: 1px soli red;
 }
@@ -4074,7 +4074,7 @@ h5.nocomments {
 }
 .submit{
 	color: #fff;
-    background red;
+    background:red;
     padding: 11px 38px;
     border-radius: 60px;
     border: none;
@@ -4083,7 +4083,7 @@ h5.nocomments {
     transition: all ease 0.5s 0s;
 }
 .submit:hover{
-	color red;
+	color:red;
     background: #fff;
     padding: 11px 38px;
     border-radius: 60px;
