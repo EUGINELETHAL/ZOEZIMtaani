@@ -238,7 +238,7 @@ Header
 	left: 0;
 	top: 0;
 	width: 100%;
-	background: transparent;
+	background:transparent;
 	z-index: 999;
 	-webkit-transition: all 1s ease;
 	-ms-transition: all 1s ease;
@@ -667,7 +667,7 @@ Carousel
 	font-size: 20px;
 	font-weight: 900;
 }
-. .btn-hero:hover {
+ .btn-hero:hover {
 	border-color:red !important;
 	background-color:red;
 	color:#fff;
@@ -822,7 +822,7 @@ h2.title {
 	font-weight:400;
 }
 .course_sec a:hover {
-	color red;
+	color:red;
 	cursor: default;
 }
 .course-list ul li a:hover .slass-img:after, .course-list ul li a:hover .slass-img span, .trainers-list ul li:hover .trainer-img-wrap:after, .trainers-list ul li:hover .trainer-img .footer-social {
@@ -1220,13 +1220,13 @@ Trainer
 	border-radius: 50%;
 	color: red;
 }
-.footer-social ul li a i {
+.-social ul li a i {
 	font-size: 30px;
 	height: 50px;
 	line-height: 50px;
 	width: 50px;
 	transition: all 0.5s ease 0s;
-	-moz-transition: all 0.5s ease 0s;
+	-moz-transitiofootern: all 0.5s ease 0s;
 	-webkit-transition: all 0.5s ease 0s;
 	-ms-transition: all 0.5s ease 0s;
 	-o-transition: all 0.5s ease 0s;
@@ -1773,12 +1773,12 @@ figcaption {
     text-transform: uppercase;
 }
 .filter-button:hover{
-    background red;
+    background:red;
 	color:#fff;
    transition: all ease 0.5s 0s;
 }
 .filter-button:active{
-    background red;
+    background:red;
 	color:#fff;
 	transition: all ease 0.5s 0s;
 	outline: none !important;
@@ -2088,7 +2088,7 @@ footer
 	width: 40px;
 }
 .social ul li a i:hover {
-	background-color red;
+	background-color:red;
 }
 .conatct-us {
 	background: url(../images/contact_bg.png) no-repeat;
@@ -2318,7 +2318,7 @@ h3.blog_title {
 	color: #82b53f;
 }
 .blog_detail:hover .blog_title a{
-	color red;
+	color:red;
 	transition:all ease 0.5 0s;
 }
 .upload_info span {
@@ -2370,7 +2370,7 @@ h3.blog_title {
 }
 .read_social .pull-left .fa {
 	padding-left: 5px;
-	color red;
+	color:red;
 }
 .read_social .pull-right .fa {
 	color: #ffffff;
@@ -2505,7 +2505,7 @@ font-size: 17px;
 	font-size: 20px;
 }
 .search_blog button:hover {
-	color red;
+	color:red;
 	background-color: transparent;
 	border-color: transparent;
 }
@@ -2829,7 +2829,7 @@ i.fa.fa-quote-left {
 	z-index: 99;
 }
 i.fa.fa-angle-left {
-    background-color red;
+    background-color:red;
     color: #fff;
     height: 40px;
     width: 40px;
@@ -2838,7 +2838,7 @@ i.fa.fa-angle-left {
     border-radius: 50px;
 }
 i.fa.fa-angle-right {
-    background-color red;
+    background-color:red;
     color: #fff;
     height: 40px;
     width: 40px;
@@ -2975,7 +2975,7 @@ Classes
 	color: #040404;
 }
 #filter_menu li:hover {
-	background red;
+	background:red;
 }
 #filter_menu li:hover a {
 	color: #fff;
@@ -3031,7 +3031,7 @@ a.back_to_home {
 	font-size: 18px;
 	text-transform: uppercase;
 	padding: 19px 35px;
-	background-color red;
+	background-color:red;
 	border-radius: 50px;
 	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
@@ -3131,12 +3131,12 @@ a.back_to_home {
 	font-size: 18px;
 	text-transform: uppercase;
 	padding: 19px 35px;
-	background-color red;
+	background-color:red;
 	border-radius: 50px;
 	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
 	margin: 15px;
-	border: 2px soli red;
+	border: 2px solid red;
 	transition: all ease 0.5s 0s;
 }
 a.back_to_home:hover {
@@ -3171,7 +3171,7 @@ a.back_to_home:hover {
 	margin-bottom: 50px;
 }
 .color_change {
-	color red;
+	color:red;
 }
 .comeing_con p {
 	font-size: 18px;
@@ -3238,7 +3238,7 @@ input.form-control.cooming_soon.input-lg {
 	width: -99;
 }
 .form-subscribe .btn {
-	background red;
+	background:red;
 	height: 46.5px;
 	border-radius: 40px !important;
 	border: none;
@@ -3411,7 +3411,7 @@ contact
 }
 .submit_btn {
 	color: #fff;
-	background red;
+	background:red;
 	padding: 11px 38px;
 	border-radius: 60px;
 	border: none;
@@ -3824,7 +3824,7 @@ Blog_detail_page
     min-height: 34px;
 }
 .ft-blog-post .info .date {
-    color red;
+    color:red;
     font-weight: bold;
     text-align: left;
     float: left;
@@ -4337,4 +4337,84 @@ animaction
     position: absolute;
     top: -5%;
     right: -1%;
-}
+}.site-footer {
+	padding: 5em 0;
+	background: #262626;
+	color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .site-footer p:last-child {
+	margin-bottom: 0;
+  }
+  
+  .site-footer a {
+	color: #f73471;
+	border-bottom: 1px solid transparent;
+  }
+  
+  .site-footer a:hover {
+	color: #fff;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .site-footer h3 {
+	font-size: 16px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	color: #fff;
+  }
+  
+  .site-footer .footer-link li {
+	line-height: 1.5;
+	margin-bottom: 15px;
+  }
+  
+  .site-footer hr {
+	width: 100%;
+  }
+  
+  .footer-social a {
+	line-height: 0;
+	border-radius: 50%;
+	margin: 0 5px 5px 0;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	display: inline-block;
+  }
+  
+  .footer-social a:hover {
+	background: #fff;
+	border-color: #fff;
+	color: #000;
+  }
+  
+  .link-thumbnail {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+  }
+  
+  @media (max-width: 991px) {
+	.link-thumbnail {
+	  margin-bottom: 30px;
+	}
+  }
+  
+  .link-thumbnail img {
+	position: relative;
+	-webkit-transition: .3s all ease;
+	-o-transition: .3s all ease;
+	transition: .3s all ease;
+  }
+  
+  .link-thumbnail .date {
+	display: block;
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.4);
+	text-transform: uppercase;
+	margin-bottom: 10px;
+  }
+  
