@@ -1075,9 +1075,9 @@ img {
     font-size: 25px;
     font-weight: 600;
     line-height: 25px;
-    margin-top: 20px;
+    margin-top: 10px;
 	color:#FFF;
-	text-align:center;
+	text-align:left;
 	text-transform:uppercase;
 }
 .course_box1:hover .course_con1 h3{
@@ -3270,7 +3270,7 @@ i.fa.fa-paper-plane {
 #comeing_soon_icon i {
 	height: 45px;
 	width: 45px;
-	background-color red;
+	background-color:red;
 	font-size: 21px;
 	border-radius: 50px;
 	line-height: 45px;
@@ -3376,7 +3376,7 @@ contact
 	box-shadow: 3px 4px 15px 0px rgba(211, 211, 211, 0.75);
 }
 .contact_form_detail:focus {
-	border: 1px soli red;
+	border: 1px solid red;
 	outline: none;
 	transition: all ease 0.5s 0s;
 	box-shadow: 3px 4px 15px 0px rgba(211, 211, 211, 0.75);
