@@ -327,7 +327,7 @@ Header
 	border-bottom: 2px solid transparent;
 }
 .main-menu .nav li a:hover, .main-menu .nav li.current a {
-	border-bottom: 2px soli red;
+	border-bottom: 2px solid red;
 	background-color: transparent;
 	color:#fff;	
 }
@@ -987,12 +987,12 @@ img {
     
     content: "";
     display: block;
-    height: 100%;
+    height: 55%;
     opacity: 0;
     position: absolute;
     right: 0;
     overflow: hidden;
-    width: 100%;
+    width: 55%;
 	transition:all ease 0.5s 0s;
 }
 .course_box1:before {
@@ -1087,7 +1087,8 @@ img {
     margin: 10px 0px 60px 15px;
 }
 .img_course1 {
-    max-width: 100%;
+	max-width: 55%;
+
 }
 a.course_read {
     font-size: 20px;
@@ -1103,7 +1104,7 @@ a.course_read {
 	opacity:1;
 }
 .course_box1:hover a:hover.course_read{
-	color:#fff;
+	color:orangered;
 	cursor:pointer;
 	opacity:0.8;
 }
@@ -1282,7 +1283,7 @@ Trainer
     line-height: 25px;
     margin-top: 20px;
 	color:red;
-	text-align:center;
+	text-align:left;
 	text-transform:uppercase;
 }
 .trainer_con p{
@@ -1784,11 +1785,9 @@ figcaption {
 	outline: none !important;
 }
 .port-image{
-    width: 100%;
+    width: 50%;
 }
-.img_course1 {
-    -webkit-clip-path: polygon(18.3% 0, 100% 0, 100% 100%, 0 100%, 0 28.6%);
-    clip-path: polygon(18% 0, 100% 0, 100% 100%, 0 100%, 0 28.6%);
+
 }
 section.inner_classes {
     margin-top: 60px;
@@ -1860,7 +1859,7 @@ blog
 	transform: rotate(-45deg);
 }
 .blog_sec .item:hover p.blog-title {
-	color red;
+	color:red;
 	-webkit-transition: .3s ease;
 	transition: .3s ease;
 }
@@ -2338,7 +2337,7 @@ h3.blog_title {
 	border-bottom: 1px solid #dbdbdb;
 }
 .blog_detail:nth-child(3) {
-	border-bottom: 3px soli red;
+	border-bottom: 3px solid red;
 }
 .blogpage3 .blog_main_img {
 	max-height: 400px;
@@ -2397,7 +2396,7 @@ h3.blog_title {
 	vertical-align: middle;
 }
 .read_social .pull-right .circle:hover {
-	background red;
+	background:red;
 }
 /*paggination*/
 .pagination {
@@ -2416,7 +2415,7 @@ h3.blog_title {
 	margin: 0;
 }
 .pull-right.pagination .active {
-	border: 2px soli red;
+	border: 2px solid red;
 	border-radius: 30px;
 }
 .pagination .pre, .pagination .next {
@@ -2454,7 +2453,7 @@ h3.blog_title {
 	color: #ffffff;
 	text-transform: uppercase;
 	font-weight: 800;
-	background red;
+	background:red;
 	margin-bottom: 0;
 	padding: 20px;
 	font-size: 22px;
@@ -2728,7 +2727,7 @@ blog page
 	padding: 0;
 	margin-top: 20px;
 	text-align:center;
-	color red;
+	color:red;
 	font-weight: 600;
 	font-family: 'Lato', sans-serif;
 }
@@ -3071,7 +3070,7 @@ a.back_to_home:hover {
 	margin-bottom: 50px;
 }
 .color_change {
-	color red;
+	color:red;
 }
 .inner_classes .course-list ul li{
 	padding:15px;
@@ -3873,7 +3872,7 @@ Blog_detail_page
     color:#ff7101;
 }
 .ft-blog-post .info .title-info .info p span i {
-    color red;
+    color:red;
     margin-right: 10px;
 }
 .ft-blog-post .info .date .post-date {
